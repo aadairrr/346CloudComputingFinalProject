@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Project 2 Play</title>
+        
+        <!-- Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js">
+        </script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-auth.js"></script>
+        
+        <script type="text/javascript" src="firebaseScripts.js"></script>
+        
+        <!-- Canvas -->
+        <script type="text/javascript" src="canvasScript.js"></script>
+    </head>
+    <body onload="setGrid()">
+        <header>
+            <h1>CSC346 Color Game</h1>
+            <form>
+                <img id="userPic" height=30px; src="" />
+                User: <span id="name">name</span>
+                <input type="button" value="Log Out" onclick = "logOut();"/>
+            </form>
+            <div class="colorContainer" id="colorContainer">
+            </div>
+        </header>
+        <div class="canvas" id="canvas">
+            
+        </div>
+        <div class="circle" id="mine">
+        </div>
+        <div class="userName" id="userName"></div>
+   </body>
+</html>
