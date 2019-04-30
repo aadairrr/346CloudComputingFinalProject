@@ -9,5 +9,7 @@ What I created: A canvas of pixels that a user can paint.  Pixel information is 
 Created using HTML, CSS and Javascript.  Account information handled through Google's OAuth.
 
 2 short, 90 Second video demonstrations can be found here:
+
 Phase 1: https://youtu.be/hQtSKDYbcgk
+
 Phase 2: https://youtu.be/6B-tos7lFRw
