@@ -1,0 +1,50 @@
+header{
+    padding: 5px;
+    text-align:center;
+    color: black;
+}
+.colorContainer{
+    width: 500px;
+    height: 30px;
+    margin: auto;
+}
+.color{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin: 5px;
+    border: 1px solid black;
+    float:left;
+}
+.color:hover{
+    opacity: 0.5;
+}
+.canvas{
+    background-color: aliceblue;
+    opacity: 0.9;
+    width: 500px;
+    height: 500px;
+    margin: 10px auto;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.pixel{
+    float: left;
+    width: 9px;
+    height: 9px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+.circle{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    z-index: -1;
+}
+
+.circle div{
+    margin-top:50px
+}
