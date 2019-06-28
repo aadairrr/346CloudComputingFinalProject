@@ -1,5 +1,7 @@
 # 346CloudComputingFinalProject
 
+This project can be viewed at: https://colorgame-4cfa6.web.app/
+
 My final project for CSC346 Cloud Computing.
 
 Goal: To create a web service that could be accessed by multiple machines at once.  This must be able to be run on a single or on multiple AWS server instances.
